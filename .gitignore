@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# PyTorch models
+*.pth
+*.pt
+
+# Data
+data/
+
+# C++ Build artifacts
+build/
+*.out
+libtorch/
+libtorch.zip
+*.o
+*.a
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile.in
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
